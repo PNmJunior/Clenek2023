@@ -58,4 +58,5 @@ Na tomto projektu jsme, já Pavol Ňachaj, pracovali více než rok. Začali jsm
 <img src = "31.05.23b.jpg">
 
 Pavol Ňachaj
+
 Tomáš Hradil
