@@ -42,13 +42,20 @@ Mnoho zařízení dnes funguji na dálkové ovládaní(jednosměrná komunikace)
 Touhle cestou jsem se nevydal kvůli nutnosti používat https server, to by znamenalo, že doba odezvy by se zvýšila z desítek milisekund na až sekundy. To bylo pro můj projekt nepřijatelné ale když použijete https tak se vám bohužel neotevře jednotný univerzalita a vždy fungující systém přes který jde komunikovat přes Bluetooth a USB a Seriál port. Taková možnost je užitečná, ale neměla by být jediným komunikační možností a to jen z toho důvodu, že tyto služby primárně poskytuje google chromu a jsou závislé od operačního systému a hardwaru a hlavně verze prohlížeče.
 
 ## Aplikace, tvoje zodpovědnost, tvůj čas
-U webu je v problematice Bluetooth/USB/Seriál port vrstva navíc která může znemožnit zprovoznění. Aplikace vám dává lepší možnost opravit/zprovoznit komunikaci. Já jsem chtěl si nově vyrobené mechanické joysticky spojit jiným systémem než přes simulaci web klienta přes ESP32. Našel jsem aplikaci spojující Telnet s USB OTG s názvem „USB Serial Telnet Server“ https://github.com/ClusterM/usb-serial-telnet-server.git . Využil jsem této aplikace, ale rychlost Telnetu byla pomalá. Nakonec jsem k původní aplikaci připrogramoval simulaci web klienta a část záplaty, která definovala začátky a konce správ, protože já jsem do té doby zpracovával data jako běličky a tady byly data jako nepřetržitý tok dat.
+U webu je v problematice Bluetooth/USB/Seriál port vrstva navíc která může znemožnit zprovoznění. Aplikace vám dává lepší možnost opravit/zprovoznit komunikaci. Já jsem chtěl si nově vyrobené mechanické joysticky spojit jiným systémem než přes simulaci web klienta přes ESP32. 
+<img src = "31.05.23c.jpg">
+Našel jsem aplikaci spojující Telnet s USB OTG s názvem „USB Serial Telnet Server“ https://github.com/ClusterM/usb-serial-telnet-server.git . Využil jsem této aplikace, ale rychlost Telnetu byla pomalá. Nakonec jsem k původní aplikaci připrogramoval simulaci web klienta a část záplaty, která definovala začátky a konce správ, protože já jsem do té doby zpracovával data jako běličky a tady byly data jako nepřetržitý tok dat.
 Tento projekt mi umožnil nahlédnout do problematiky IOT.
-
-Text této části článku: Pavol Ňachaj
 
 Na Robotické dnu 2023 jsem se robot pokusil o disciplínu: Roadside assistance beginner 
 
 ## Účast týmu ČZU na soutěži Robotický den
 Ve dnech 3.6. a 4.6. se tým studentů ze ČZU z Technické fakulty zúčastnil soutěže Robotický den 2023. Tým byl složen z Pavla Ňachaje, autora robota, a Tomáše Hradila, jako spoluautor konstrukce robota. Robot se jmenoval „BuckysPlasticArm“ https://github.com/PNmJunior/RB2022-TymRECYLKON-TCB-BuckysPlasticArm.git. 
-Na tomto projektu jsme pracovali více než rok. Začali jsme měsíc před soutěží Robotického dne 2022 http://robotickyden.cz/2022/ a skončili po soutěži Robotický den 2023 https://robotickyden.cz/2023/. Tento robot je ovládán pomoci webového prohlížeče. Na Robotickém dni 2023 jsme se s robotem Buckysplasticarm zúčastnili disciplíny Roadside Assistance Beginner. Z celkových 12 přihlášených robotů se do soutěže kvalifikovalo jen 6 robotů mezi kterými jsme byli i my. Z těchto 6 kvalifikovaných robotů jsme se umístili na 6. místě. Strategie velkého stroje se nevyplatila. Tento projekt nám umožnil nahlédnout do problematiky IoT a nasbírané zkušenosti bychom chtěli nadále aplikovat i v jiných projektech.
+Na tomto projektu jsme, já Pavol Ňachaj, pracovali více než rok. Začali jsme měsíc před soutěží Robotického dne 2022 http://robotickyden.cz/2022/ a skončili po soutěži Robotický den 2023 https://robotickyden.cz/2023/ společně s Tomášem Hradilem. Na Robotickém dni 2023 jsme se s robotem BuckysPlasticArm zúčastnili disciplíny Roadside Assistance Beginner. Z celkových 12 přihlášených robotů se do soutěže kvalifikovalo jen 6 robotů mezi kterými jsme byli i my. Z těchto 6 kvalifikovaných robotů jsme se umístili na 6. místě. Strategie velkého stroje se nevyplatila. Tento projekt nám umožnil nahlédnout do problematiky IoT a nasbírané zkušenosti bychom chtěli nadále aplikovat i v jiných projektech.
+
+## Fotky robota
+<img src = "31.05.23a.jpg">
+<img src = "31.05.23b.jpg">
+
+Pavol Ňachaj
+Tomáš Hradil
