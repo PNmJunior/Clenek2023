@@ -1,0 +1,2 @@
+# Prezentační fotky
+
