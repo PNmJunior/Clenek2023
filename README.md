@@ -60,3 +60,13 @@ Na tomto projektu jsme, já Pavol Ňachaj, pracovali více než rok. Začali jsm
 Pavol Ňachaj
 <br>
 Tomáš Hradil
+
+# Prezentační fotky
+<img src = "prezentacni fotky/P1530655.JPG">
+<img src = "prezentacni fotky/P1530657.JPG">
+<img src = "prezentacni fotky/P1530670.JPG">
+<img src = "prezentacni fotky/P1530677.JPG">
+<img src = "prezentacni fotky/P1530678.JPG">
+<img src = "prezentacni fotky/P1530688.JPG">
+<img src = "prezentacni fotky/P1530689.JPG">
+<img src = "prezentacni fotky/P1530699.JPG">
